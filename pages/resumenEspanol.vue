@@ -24,7 +24,7 @@
 
     <section class="bg-black flex justify-center">
         <div>
-            <NuxtLink class="border-2 border-teal-400 text-white font-bold p-2 rounded-full hover:bg-sky-50 hover:text-slate-600 transition duration-500" to="/contactEnglish">ENGLISH</NuxtLink>
+            <NuxtLink class="border-2 border-teal-400 text-white font-bold p-2 rounded-full hover:bg-sky-50 hover:text-slate-600 transition duration-500" to="/resumenEnglish">ENGLISH</NuxtLink>
         </div>
     </section>
 
@@ -134,7 +134,7 @@
     <section class="bg-black text-white pt-20">
         <div class="text-xl md:text-3xl pb-16 w-11/12 md:w-6/12 pl-10">
             <div data-aos="fade-left">
-            <p> Aqui muestro algunas de las empresas mas importantes que e trabajado.</p>
+            <p> Aqui menciono algunas de las empresas mas importantes que e trabajado con algunos proyectos.</p>
             </div>
         </div>
         <div class="container flex flex-col md:flex-row gap-x-56 items-center md:justify-between text-md md:text-2xl">
@@ -148,7 +148,7 @@
               Gas natural
             </div>
             <div class="underline decoration-teal-300 pb-5">
-              Vitamedica
+              Banorte
             </div>
         </div>
     </section>
@@ -167,7 +167,7 @@
     </div>
     </section>
 
-    <section class="pt-32 bg-black text-white">
+    <section class="pb-32 pt-32 bg-black text-white">
     <div  data-aos="zoom-in">
         <div class="flex justify-center">
             <h1 class="bg-gradient-to-br from-blue-500 h-1 w-9/12"></h1>
@@ -179,8 +179,30 @@
         </div>
         <div class="flex justify-left">
             <h1 class="text-md text-left w-8/12 pt-16 pl-10 md:text-xl md:text-left md:w-6/12 md:pl-40">
-                Luis Pulido a tenido 14 años de experiencia trabajando en empresas con la cual a crecido su experiencia dentro de la area de TI 
-                siendo 2 veces asignado como lider de proyecto y coordinaor de proyectos.
+               <p>
+                Tengo la experiencia de como trabajar con grandes corporativos a travez de los años y con varios equipos
+                en forma profesional haciendo que sea lo mas inteligente con la finalidad de llegar a las metas asignada.
+                </p>
+                <br>
+                <p>
+                Con el tiempo esto me ayudo a aprender a como resolver en ocaciones situaciones extrañas o rapidas de desarrollos 
+                aplicando las tecnólogias o herramientas mas adecuadas para una mejor aportación al proyecto. 
+                </p>
+                <br>
+                <p>
+                El trabajar de forma independiente también me ayudo a desarrollarme mas ya que con esto me ayudo a trabajar con nuevos
+                lenguajes y conocer desde inicio desarrollos obligandome a usar buenas practicas.
+                </p>
+                <br>
+                <p>
+                Esto me ayudo mucho a entender a los clientes la gran importacia de la confiabilidad que me otorgan y de que los proyectos que se desarrollan
+                sean de forma exitosa con el fin de dejar al cliente satisfecho con los resultados.
+                </p>
+                <br>
+                <p>
+                Finalmente solo puedo decir que desde el inicio de esta carrera fui siendo autodidacta y siempre sigo aprendiendo en base lo que se va 
+                presentando y necesidades que requiero para completar mis metas.
+                </p>   
             </h1>
         </div>
     </div>

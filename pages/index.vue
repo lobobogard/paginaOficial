@@ -3,7 +3,7 @@
       <div class="flex flex-col gap-2 text-center">
         <div class="text-3xl md:text-5xl italic animate__animated animate__bounce animate__delay-1s"> SEGUROS SEMAFORO </div>
         <div class="text-1xl md:text-2xl">agentes en quien confiar</div>
-        <div class="flex justify-center gap-2 animate__animated animate__fadeIn">
+        <div class="flex justify-center gap-2 animate__animated animate__backInDown">
         <img class="mt-4 h-auto max-w-sm transition-all duration-300 rounded-lg cursor-pointer filter grayscale-0" src="~/assets/img/segurosExito.jpg" alt="seguridad en tu trabajo">
       </div>
       </div>

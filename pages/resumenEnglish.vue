@@ -24,7 +24,7 @@
 
     <section class="bg-black flex justify-center">
         <div>
-            <NuxtLink class="border-2 border-teal-400 text-white font-bold p-2 rounded-full hover:bg-sky-50 hover:text-slate-600 transition duration-500" to="/contactoEspanol">ESPAÑOL</NuxtLink>
+            <NuxtLink class="border-2 border-teal-400 text-white font-bold p-2 rounded-full hover:bg-sky-50 hover:text-slate-600 transition duration-500" to="/resumenEspanol">ESPAÑOL</NuxtLink>
         </div>
     </section>
 
@@ -134,7 +134,7 @@
     <section class="bg-black text-white pt-20">
         <div class="text-xl md:text-3xl pb-16 w-11/12 md:w-6/12 pl-10">
             <div data-aos="fade-left">
-            <p> Here I show some of the most important companies that I have worked for.</p>
+            <p> Here I mention some of the most important companies that I have worked with on some projects.</p>
             </div>
         </div>
         <div class="container flex flex-col md:flex-row gap-x-56 items-center md:justify-between text-md md:text-2xl">
@@ -148,7 +148,7 @@
               Gas natural
             </div>
             <div class="underline decoration-teal-300 pb-5">
-              Vitamedica
+              Banorte
             </div>
         </div>
     </section>
@@ -167,7 +167,7 @@
     </div>
     </section>
 
-    <section class="pt-32 bg-black text-white">
+    <section class="pb-32 pt-32 bg-black text-white">
     <div  data-aos="zoom-in">
         <div class="flex justify-center">
             <h1 class="bg-gradient-to-br from-blue-500 h-1 w-9/12"></h1>
@@ -179,8 +179,30 @@
         </div>
         <div class="flex justify-left">
             <h1 class="text-md text-left w-8/12 pt-16 pl-10 md:text-xl md:text-left md:w-6/12 md:pl-40">
-                Luis Pulido a tenido 14 años de experiencia trabajando en empresas con la cual a crecido su experiencia dentro de la area de TI 
-                siendo 2 veces asignado como lider de proyecto y coordinaor de proyectos.
+                <p>
+                I have the experience of working with large corporations over the years and with various teams.
+                in a professional way making it the most intelligent in order to reach the assigned goals.
+                </p>
+                <br>
+                <p>
+                Over time this helped me learn how to sometimes resolve strange situations or rapid developments.
+                applying the most appropriate technologies or tools for a better contribution to the project.
+                </p>
+                <br>
+                <p>
+                Working independently also helped me to develop more since with this it helped me to work with new
+                languages ​​and know from the beginning developments forcing me to use good practices.
+                </p>
+                <br>
+                <p>
+                This helped me a lot to understand to the clients the great importance of the reliability that they give me and that the projects that are developed
+                be successful in order to leave the client satisfied with the results.
+                </p>
+                <br>
+                <p>
+                Finally I can only say that from the beginning of this degree I was self-taught and I always keep learning based on what is going
+                presenting and needs that I require to complete my goals.
+                </p>   
             </h1>
         </div>
     </div>
