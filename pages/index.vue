@@ -4,8 +4,8 @@
         <div class="text-3xl md:text-5xl italic animate__animated animate__bounce animate__delay-1s"> SEGUROS SEMAFORO </div>
         <div class="text-1xl md:text-2xl">agentes en quien confiar</div>
         <div class="flex justify-center gap-2 animate__animated animate__backInDown">
-        <img class="mt-4 h-auto max-w-sm transition-all duration-300 rounded-lg cursor-pointer filter grayscale-0" src="~/assets/img/segurosExito.jpg" alt="seguridad en tu trabajo">
-      </div>
+          <img class="mt-4 h-40 md:h-auto max-w-sm transition-all duration-300 rounded-lg cursor-pointer filter grayscale-0" src="~/assets/img/segurosExito.jpg" alt="seguridad en tu trabajo">
+        </div>
       </div>
     </section>
     
@@ -67,6 +67,87 @@
            </div>
       </div>
     </div>
+  </section>
+
+
+  <section  data-aos="fade-up" data-aos-delay="300" class="flex flex-col justify-center items-center mt-28 mb-4">
+      <div class="animate__animated animate__backInLeft">
+        <img src="~/assets/img/gif/lista-de-verificacion.gif" class="h-24  w-24 mr-3" alt="Flowbite Logox" />
+      </div>
+      <div class="text-xl font-bold">
+        DESARROLLAR SOLUCIÓNES
+      </div>
+    </section>
+
+  <section class="mt-28">
+  <div class="container">
+	<div data-aos="fade-right" class="boxes flex flex-col md:flex-row mb-20">
+		<div class="box w-12/12 pl-3 pr-3 pb-10 md:w-4/12 md:pr-10 md:pb-0 md:border-r-2 border-dashed border-red-800 border-opacity-50">
+			<img src="~/assets/img/motivos/charts.jpg" class="rounded-3xl h-48 p-2 w-auto mr-3" alt="Flowbite Logox" />
+			<h2 class="text-2xl font-bold">The King</h2>
+			<p class="piece-count py-3">1 piece</p>
+		 <p class="text-sm bg-emerald-100 rounded-md p-1">The King can move just one square at a time in any direction. It should be defended at all times by the other pieces as once checkmated the game is lost.</p>
+		</div>
+		<div class="box w-12/12 pl-3 pr-10 pb-10 md:w-4/12 md:px-10 md:pb-0 md:border-r-2 border-dashed border-blue-800 border-opacity-50">
+			<img src="~/assets/img/motivos/graficas.jpg" class="rounded-3xl h-48 p-2 w-auto mr-3" alt="Flowbite Logox" />
+			<h2 class="text-2xl font-bold">The Queen</h2>
+			<p class="piece-count py-3">1 piece</p>
+			<p class="text-sm bg-blue-100 rounded-md p-1">The most powerful piece on the board, the Queen can move any number of squares in straight lines or on the diagonal until obstructed by another piece.</p>
+		</div>
+		<div class="box w-12/12 pl-3 pr-10 pb-10 md:w-4/12 md:pl-10 md:pb-0">
+			<img src="~/assets/img/motivos/notas.jpg" class="rounded-3xl h-48 p-2 w-auto mr-3" alt="Flowbite Logox" />
+			<h2 class="text-2xl font-bold">The Rook</h2>
+			<p class="piece-count py-3">2 pieces</p>
+			<p class="text-sm bg-teal-100 rounded-md p-1">After the Queen the Rook is the next most powerful piece on the board. It can move any number of squares in a straight line until obstructed by another piece.</p>
+		</div>
+	</div>
+	<div data-aos="fade-left" class="boxes flex flex-col md:flex-row mb-20">
+		<div class="box w-12/12 pl-3 pr-3 pb-10 md:w-4/12 md:pr-10 md:pb-0 md:border-r-2 border-dashed border-yellow-800 border-opacity-50">
+			<img src="~/assets/img/motivos/calendar.jpeg" class="rounded-3xl h-48 p-2 w-auto mr-3" alt="Flowbite Logox" />
+			<h2 class="text-2xl font-bold">The King</h2>
+			<p class="piece-count py-3">1 piece</p>
+		 <p class="text-sm bg-yellow-100 rounded-md p-1">The King can move just one square at a time in any direction. It should be defended at all times by the other pieces as once checkmated the game is lost.</p>
+		</div>
+		<div class="box w-12/12 pl-3 pr-10 pb-10 md:w-4/12 md:px-10 md:pb-0 md:border-r-2 border-dashed border-green-800 border-opacity-50">
+			<img src="~/assets/img/motivos/envios.jpg" class="rounded-3xl h-48 p-2 w-auto mr-3" alt="Flowbite Logox" />
+			<h2 class="text-2xl font-bold">The Queen</h2>
+			<p class="piece-count py-3">1 piece</p>
+			<p class="text-sm bg-fuchsia-100 rounded-md p-1">The most powerful piece on the board, the Queen can move any number of squares in straight lines or on the diagonal until obstructed by another piece.</p>
+		</div>
+		<div class="box w-12/12 pl-3 pr-10 pb-10 md:w-4/12 md:pl-10 md:pb-0">
+			<img src="~/assets/img/motivos/equipo.jpg" class="rounded-3xl h-48 p-2 w-auto mr-3" alt="Flowbite Logox" />
+			<h2 class="text-2xl font-bold">The Rook</h2>
+			<p class="piece-count py-3">2 pieces</p>
+			<p class="text-sm bg-pink-100 rounded-md p-1">After the Queen the Rook is the next most powerful piece on the board. It can move any number of squares in a straight line until obstructed by another piece.</p>
+		</div>
+	</div>
+</div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     <section>
     <div class="mt-32 pt-28 pb-20 bg-teal-800 text-white font-serif" data-aos="flip-down" data-aos-delay="500">
@@ -204,18 +285,6 @@
     </div>
     </section>
         
-    <!-- </section>
-      <div class="flex flex-row gap-6 mt-8">
-        <div class="basis-1/2 bg-black">
-          <img src="~/assets/img/screens/login.png" class="h-48 w-96 mr-3" alt="Flowbite Logox" />
-        </div>
-        <div class="basis-1/2">
-          hola mundo
-        </div>
-      </div>
-    <section> -->
-    
-    </section>
     </template>
     
     
@@ -240,3 +309,9 @@
         }
       }
     </script>
+    <style scoped>
+  @import url("https://fonts.googleapis.com/css?family=Lato:200,300,400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:200,400,400i,700");
+
+
+   </style>

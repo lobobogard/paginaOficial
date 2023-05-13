@@ -3,29 +3,48 @@
     <header>
     <nav class="bg-gray-300  border-gray-200 dark:bg-gray-900">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="https://flowbite.com/" class="flex items-center">
+        <a href="https://flowbite.com/" class="flex items-center animate__animated animate__flip">
             <img src="~/assets/img/semaforo.png" class="h-10  w-10 mr-3" alt="Flowbite Logox" />
         </a>
-        <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+        <button @click="menu" data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
           <span class="sr-only">Open main menu</span>
           <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
         </button>
-        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <div class="md:block hidden w-full md:w-auto" id="navbar-default">
           <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-gray-300 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
-                <NuxtLink to="/">Inicio</NuxtLink>
+                <NuxtLink class="transition-all duration-200 hover:text-xl" to="/">Inicio</NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/tutorial">Tutorial</NuxtLink>
+              <NuxtLink class="transition-all duration-200 hover:text-xl" to="/tutorial">Tutorial</NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/resumenEspanol">Creador</NuxtLink>
+              <NuxtLink class="transition-all duration-200 hover:text-xl" to="/resumenEspanol">Creador</NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/contacto">Contacto</NuxtLink>
+              <NuxtLink class="transition-all duration-200 hover:text-xl" to="/contacto">Contacto</NuxtLink>
             </li>
             <li>
-              <a href="#" class="border-2 border-teal-100 text-white font-bold p-2 rounded-full hover:bg-sky-50 hover:text-slate-600 transition duration-500">SEGUROS SEMAFORO</a>
+              <a href="#" class="border-2 border-teal-100 bg-blue-700 text-white font-bold p-1 rounded-full hover:bg-sky-50 hover:text-orange-500 hover:px-10 transition-all duration-500 text-sm">SEGUROS SEMAFORO</a>
+            </li>
+          </ul>
+        </div>
+        <div v-show="mostrarMenu" :class="cssMenu" class="block lg:hidden w-full md:w-auto" id="navbar-default" >
+          <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-gray-300 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <li class="mb-1 bg-blue-200 text-white text-center rounded-xl">
+                <NuxtLink class="transition-all duration-200 hover:text-xl" to="/">Inicio</NuxtLink>
+            </li>
+            <li class="mb-1 bg-blue-200 text-white text-center rounded-xl">
+              <NuxtLink class="transition-all duration-200 hover:text-xl" to="/tutorial">Tutorial</NuxtLink>
+            </li>
+            <li class="mb-1 bg-blue-200 text-white text-center rounded-xl">
+              <NuxtLink class="transition-all duration-200 hover:text-xl" to="/resumenEspanol">Creador</NuxtLink>
+            </li>
+            <li class="mb-2 bg-blue-200 text-white text-center rounded-xl">
+              <NuxtLink class="transition-all duration-200 hover:text-xl" to="/contacto">Contacto</NuxtLink>
+            </li>
+            <li class="text-center">
+              <a href="#" class="border-2 border-teal-100 bg-blue-700 text-white font-bold p-1 rounded-full hover:bg-sky-50 hover:text-orange-500 hover:px-10 transition-all duration-500 text-sm">SEGUROS SEMAFORO</a>
             </li>
           </ul>
         </div>
@@ -64,6 +83,22 @@
     </footer>
     </div>
 </template>
+<script lang="ts" setup>
+let menuVer = ref(false)
+let cssMenu = ref('animate__animated animate__bounceOut')
+let mostrarMenu = ref(false)
+
+function menu() {
+  menuVer.value = !menuVer.value
+  if (menuVer.value) {
+      mostrarMenu.value = menuVer.value
+      cssMenu.value = 'animate__animated animate__bounceIn'
+  } else {
+    cssMenu.value = 'animate__animated animate__bounceOut'
+    setTimeout(() => {  mostrarMenu.value = menuVer.value }, 500);
+  }
+}
+</script>
 <style scoped>
 .router-link-exact-active {
     color: DodgerBlue;

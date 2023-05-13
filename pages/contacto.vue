@@ -79,13 +79,13 @@
                     <form class="mt-4">
                         <div class="flex-1">
                             <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Nombre o Compañia</label>
-                            <input v-model="nombre" type="text" placeholder="luis pulido" class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
+                            <input v-model="nombre" type="text" placeholder="Escribir nombre o compañia" class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
                             <div  :class="classNombre"><label class="ease-in-out delay-150 block mb-2 text-xs text-red-600">*nombre o empresa obligatorio</label></div>
                         </div>
 
                         <div class="flex-1 mt-6">
                             <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Correo Electrónico</label>
-                            <input v-model="correo" type="email" placeholder="luispulido@example.com" class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
+                            <input v-model="correo" type="email" placeholder="Escribir correo" class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
                             <div  :class="classCorreo"><label class="ease-in-out delay-150 block mb-2 text-xs text-red-600">*{{ errorCorreo }}</label></div>
                         </div>
 
@@ -117,12 +117,59 @@
             </div>
         </div>
     </div>
+
+   <!-- modal -->
+    <div>
+    <div v-if="showModal" :class="showModalEnvio" class="overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center flex">
+      <div class="relative w-auto my-6 mx-auto max-w-2xl">
+        <!--content-->
+        <div class="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+          <!-- correcto   -->
+          <div v-show="statusCode == 200" class="relative p-6 flex-auto justify-center text-center">
+            <img src="~/assets/img/gif/mensaje.gif" class="h-56  w-56 mr-3 -pt-20" alt="Flowbite Logox" />
+            <h1 class="text-teal-400 text-xl">{{ messages }}</h1>
+          </div>
+          <!-- verificar -->
+          <div v-show="statusCode != 200" class="flex flex-col item-center items-center h-96 w-96">
+            <div class="">
+                <img src="~/assets/img/gif/advertencia.gif" class="h-32  w-32 mr-3 -pt-20" alt="Flowbite Logox" />
+            </div>
+            <div class="pt-10 text-orange-600">
+                <li class="ml-10" v-for="item in errors">
+                {{ item }}
+                </li>
+            </div>
+          </div>
+          <!--footer-->
+          <div class="flex items-center justify-center p-6 border-t border-solid border-slate-200 rounded-b">
+            <button class="text-teal-700 bg-transparent border border-solid border-teal-500 hover:bg-teal-500 hover:text-white active:bg-teal-600 font-bold uppercase text-sm px-6 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button" v-on:click="toggleModal()">
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div v-if="showModal" class="opacity-25 fixed inset-0 z-40 bg-black"></div>
+  </div>
+
 </section>
 </template>
 <script lang="ts" setup>
+// modal
+let showModal = ref(false)
+let showModalEnvio = ref('animate__animated animate__fadeIn')
+
+function toggleModal() {
+    showModalEnvio.value = 'animate__animated animate__fadeOut'
+    setTimeout(() => { showModal.value = false  }, 400);
+}
+
 // data
+let messages = ref('')
+let errors = ref([])
+let statusCode = ref(0) 
 let nombre = ref(null)
-let correo = ref('luis@hot.com')
+let correo = ref('')
 let mensaje = ref(null)
 
 let classNombre = ref('animate__animated animate__fadeOut')
@@ -134,14 +181,10 @@ let errorCorreo = ref('')
 let spinner = ref(true)
 
 
-const enviarCorreo = () => {
-  
+const enviarCorreo = () => { 
     if (validarformulario()) {
         enviar()
-        // setTimeout(() => {   }, 5000);
-        
     }
-  
 }
 
 function enviar() {
@@ -159,10 +202,20 @@ function enviar() {
         'Content-type': 'application/json; charset=UTF-8',
       },
       onResponse({ response }) {
-        limpiar()
-        console.log('tokenxx', response._data)
+        statusCode.value = response.status
+        
+        if (statusCode.value == 200) {
+            messages.value = response._data.message
+            limpiar()
+        } else {
+            // alert(response._data.message[0])
+            errors.value = response._data.message
+        }
+
+        showModalEnvio.value = 'animate__animated animate__fadeIn'
+        showModal.value = true
         spinner.value = true
-    },
+      }
     })
 }
 
@@ -182,7 +235,8 @@ function validarformulario():boolean {
     } else {
         if (validaEmail()) {
           errorCorreo.value = 'correo inválido'
-          classCorreo.value = 'animate__animated animate__fadeInRight'  
+          classCorreo.value = 'animate__animated animate__fadeInRight' 
+          validacion.value = false 
         } else {
             classCorreo.value = 'animate__animated animate__fadeOutRight'
         }
@@ -214,3 +268,5 @@ function limpiar() {
 }
 
 </script>
+
+
