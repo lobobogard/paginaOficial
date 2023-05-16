@@ -84,72 +84,57 @@
 	<div data-aos="fade-right" class="boxes flex flex-col md:flex-row mb-20">
 		<div class="box w-12/12 pl-3 pr-3 pb-10 md:w-4/12 md:pr-10 md:pb-0 md:border-r-2 border-dashed border-red-800 border-opacity-50">
 			<img src="~/assets/img/motivos/charts.jpg" class="rounded-3xl h-48 p-2 w-auto mr-3" alt="Flowbite Logox" />
-			<h2 class="text-2xl font-bold">The King</h2>
-			<p class="piece-count py-3">1 piece</p>
-		 <p class="text-sm bg-emerald-100 rounded-md p-1">The King can move just one square at a time in any direction. It should be defended at all times by the other pieces as once checkmated the game is lost.</p>
+			<h2 class="text-2xl font-bold">La inovación</h2>
+			<p class="piece-count py-3">Mejor ventaja</p>
+		  <p class="text-sm bg-emerald-100 rounded-md p-1">
+        La app esta diseñado de forma que todos los modulos generados estan enlazados de forma que lo hace ser muy inovador en la cual tendras demasiadas ventajas al utilizarlo.
+      </p>
 		</div>
 		<div class="box w-12/12 pl-3 pr-10 pb-10 md:w-4/12 md:px-10 md:pb-0 md:border-r-2 border-dashed border-blue-800 border-opacity-50">
 			<img src="~/assets/img/motivos/graficas.jpg" class="rounded-3xl h-48 p-2 w-auto mr-3" alt="Flowbite Logox" />
-			<h2 class="text-2xl font-bold">The Queen</h2>
-			<p class="piece-count py-3">1 piece</p>
-			<p class="text-sm bg-blue-100 rounded-md p-1">The most powerful piece on the board, the Queen can move any number of squares in straight lines or on the diagonal until obstructed by another piece.</p>
+			<h2 class="text-2xl font-bold">Estádisticas</h2>
+			<p class="piece-count py-3">El poder de predecir</p>
+			<p class="text-sm bg-blue-100 rounded-md p-1">
+        No hay nada mejor que el poder de predecir el futuro sin embargo lo mas cercano son las estadisticas que esta diseñado con el fin de saber como va nuestro negocio.
+      </p>
 		</div>
 		<div class="box w-12/12 pl-3 pr-10 pb-10 md:w-4/12 md:pl-10 md:pb-0">
 			<img src="~/assets/img/motivos/notas.jpg" class="rounded-3xl h-48 p-2 w-auto mr-3" alt="Flowbite Logox" />
-			<h2 class="text-2xl font-bold">The Rook</h2>
-			<p class="piece-count py-3">2 pieces</p>
-			<p class="text-sm bg-teal-100 rounded-md p-1">After the Queen the Rook is the next most powerful piece on the board. It can move any number of squares in a straight line until obstructed by another piece.</p>
+			<h2 class="text-2xl font-bold">Notas</h2>
+			<p class="piece-count py-3">Nunca olvidar</p>
+			<p class="text-sm bg-teal-100 rounded-md p-1">
+        Siempre en ocaciones tenemos problemas en como distribuir nuestro tiempo y mas aun cuando tenemos pendientes de los cuales creamos un mecanismo que lo hace ser muy efectiva.
+      </p>
 		</div>
 	</div>
 	<div data-aos="fade-left" class="boxes flex flex-col md:flex-row mb-20">
 		<div class="box w-12/12 pl-3 pr-3 pb-10 md:w-4/12 md:pr-10 md:pb-0 md:border-r-2 border-dashed border-yellow-800 border-opacity-50">
 			<img src="~/assets/img/motivos/calendar.jpeg" class="rounded-3xl h-48 p-2 w-auto mr-3" alt="Flowbite Logox" />
-			<h2 class="text-2xl font-bold">The King</h2>
-			<p class="piece-count py-3">1 piece</p>
-		 <p class="text-sm bg-yellow-100 rounded-md p-1">The King can move just one square at a time in any direction. It should be defended at all times by the other pieces as once checkmated the game is lost.</p>
+			<h2 class="text-2xl font-bold">Revisión</h2>
+			<p class="piece-count py-3">Secreto decifrado</p>
+		 <p class="text-sm bg-yellow-100 rounded-md p-1">
+      El problema mayor es saber cuando se venceran los seguros sin embargo creo que decifre la forma mas perfecta de como realizar de forma muy segura hacer las revisiónes diarias.
+    </p>
 		</div>
 		<div class="box w-12/12 pl-3 pr-10 pb-10 md:w-4/12 md:px-10 md:pb-0 md:border-r-2 border-dashed border-green-800 border-opacity-50">
 			<img src="~/assets/img/motivos/envios.jpg" class="rounded-3xl h-48 p-2 w-auto mr-3" alt="Flowbite Logox" />
-			<h2 class="text-2xl font-bold">The Queen</h2>
-			<p class="piece-count py-3">1 piece</p>
-			<p class="text-sm bg-fuchsia-100 rounded-md p-1">The most powerful piece on the board, the Queen can move any number of squares in straight lines or on the diagonal until obstructed by another piece.</p>
+			<h2 class="text-2xl font-bold">Mensajes</h2>
+			<p class="piece-count py-3">Como aprovecharlo?</p>
+			<p class="text-sm bg-fuchsia-100 rounded-md p-1">
+          Una de las ventajas en la actualidad es el poder de mensajear al cliente por lo cual elaboramos un proceso muy simple y automatizado para hacerles un recordatorio del vencimiento del seguro.
+      </p>
 		</div>
 		<div class="box w-12/12 pl-3 pr-10 pb-10 md:w-4/12 md:pl-10 md:pb-0">
 			<img src="~/assets/img/motivos/equipo.jpg" class="rounded-3xl h-48 p-2 w-auto mr-3" alt="Flowbite Logox" />
-			<h2 class="text-2xl font-bold">The Rook</h2>
-			<p class="piece-count py-3">2 pieces</p>
-			<p class="text-sm bg-pink-100 rounded-md p-1">After the Queen the Rook is the next most powerful piece on the board. It can move any number of squares in a straight line until obstructed by another piece.</p>
+			<h2 class="text-2xl font-bold">Equipo de trabajo</h2>
+			<p class="piece-count py-3">Como manejarlo?</p>
+			<p class="text-sm bg-pink-100 rounded-md p-1">Tengo un equipo de trabajo no te preocupes la app esta preparada teniendo permisos de accesos a cierta información y módulos pero tambien forma de trabajar con notas que eso le genera un plus.</p>
 		</div>
 	</div>
 </div>
-  </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</section>
     
-    <section>
+  <section>
     <div class="mt-32 pt-28 pb-20 bg-teal-800 text-white font-serif" data-aos="flip-down" data-aos-delay="500">
       <swiper :modules="modules" :pagination="{ clickable: true }">
         <swiper-slide>

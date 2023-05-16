@@ -5,7 +5,7 @@
             <div class="text-white lg:w-1/2 lg:mx-6 animate__animated animate__backInLeft">
               <div class="flex justify-center md:justify-start first-letter animate__animated animate__zoomInLeft animate__delay-1s" >
               <a href="https://flowbite.com/" class="">
-                <img src="~/assets/img/clan.png" class="h-36  w-36 mr-3 bg-white rounded-3xl" alt="empresa" />
+                <img src="~/assets/img/logos/clan.png" class="h-36  w-36 mr-3 bg-white rounded-3xl" alt="empresa" />
               </a>
              </div>
                 <p class="max-w-xl mt-6">Pregúntanos todo y nos encantaría saber de ti</p>
