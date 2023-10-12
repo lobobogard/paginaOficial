@@ -18,7 +18,7 @@
                         </svg>
 
                         <span class="mx-2 text-white truncate w-72">
-                            Monterrey Nuevo León centro de guadalupe. 
+                            Monterrey Nuevo León. 
                         </span>
                     </p>
 
@@ -27,7 +27,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                         </svg>
 
-                        <span class="mx-2 text-white truncate w-72">(257) 563-7401</span>
+                        <span class="mx-2 text-white truncate w-72">(52) 81-11-53-27-33</span>
                     </p>
 
                     <p class="flex items-start -mx-2">
@@ -35,7 +35,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                         </svg>
 
-                        <span class="mx-2 text-white truncate w-72">acb@example.com</span>
+                        <span class="mx-2 text-white truncate w-72">segurosemaforos@gmail.com</span>
                     </p>
                 </div>
 
@@ -170,7 +170,7 @@ let errors = ref([])
 let statusCode = ref(0) 
 let nombre = ref(null)
 let correo = ref('')
-let mensaje = ref(null)
+let mensaje = ref('')
 
 let classNombre = ref('animate__animated animate__fadeOut')
 let classCorreo = ref('animate__animated animate__fadeOut')
@@ -264,7 +264,7 @@ function validaEmail():boolean {
 function limpiar() {
     nombre.value = null
     correo.value = ''
-    mensaje.value = null
+    mensaje.value = ''
 }
 
 </script>
