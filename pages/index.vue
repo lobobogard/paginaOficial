@@ -75,7 +75,7 @@
         <img src="~/assets/img/gif/lista-de-verificacion.gif" class="h-24  w-24 mr-3" alt="Flowbite Logox" />
       </div>
       <div class="text-xl font-bold">
-        DESARROLLAR SOLUCIÓNES
+        DESARROLLAR SOLUCIONES
       </div>
     </section>
 
@@ -135,7 +135,7 @@
 </section>
     
   <section>
-    <div class="mt-32 pt-28 pb-20 bg-teal-800 text-white font-serif" data-aos="flip-down" data-aos-delay="500">
+    <div class="mt-32 pt-28 pb-20 bg-teal-800 text-white font-serif" data-aos="zoom-in" data-aos-delay="500">
       <swiper :modules="modules" :pagination="{ clickable: true }">
         <swiper-slide>
           <div class="pb-10 flex flex-col justify-center items-center text-center">

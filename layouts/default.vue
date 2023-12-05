@@ -122,9 +122,9 @@
                     <li>
                         <NuxtLink to="/condicionesServicios"><a class="mr-4 hover:underline md:mr-6">Condiciones Servicios</a></NuxtLink>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="#" class="mr-4 hover:underline md:mr-6 ">Licencias</a>
-                    </li>
+                    </li> -->
                     <li>
                         <!-- <a href="#" class="hover:underline">Contacto</a> -->
                         <NuxtLink to="/contacto">Contacto</NuxtLink>

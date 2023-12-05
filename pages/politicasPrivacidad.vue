@@ -10,7 +10,7 @@
         </div>
         <div class="flex flex-col">
             <div class="px-44 py-7">
-                En cumplimiento a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, SEGUROS SEMAFORO, S. DE R.L. DE C.V., protege 
+                En cumplimiento a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, SEGUROS SEMAFORO, persona física con actividades empresariales protege 
                 y salvaguarda sus datos personales para evitar el daño, pérdida, destrucción, robo, extravío, alteración. A continuación, 
                 hacemos de su conocimiento los términos y condiciones del Aviso de Privacidad de Datos Personales de SEGUROS SEMAFORO con domicilio en centro de guadalupe
                 fraccionamiento marte, Código Postal 67140, en la Ciudad de Monterrey nuevo leon, México.
@@ -53,7 +53,7 @@
             </div>
             <div class="px-44 py-2">
                 El responsable del manejo y supervisión de los datos personales es el area de administración de usuarios que pueden contactar por el correo segurosemaforo@gmail.com o atra vez de nuestra pagina 
-                ***********"pagina pendiente"*********** o por ultima instancia en nuestra dirección centro de guadalupe calle 7 fraccionamiento marte codigo póstal 67140 monterrey nuevo leon.
+                https://www.info.segurosemaforo.com/contacto o por ultima instancia en nuestra dirección centro de guadalupe calle 7 fraccionamiento marte codigo póstal 67140 monterrey nuevo leon.
             </div>
             <div class="px-44 pt-7 font-bold">
                 ¿Cómo puede limitar el uso o divulgación de su información personal?
@@ -72,7 +72,7 @@
             </div>
             <div class="px-44 py-2">
                 El aviso de privacidad puede ir teniendo actualizaciones, por lo cual siempre nos comprometemos a mantenerlo informado de tal modificacion en la primera comunicación que 
-                tengamos con usted después del cambio, o bien, haciéndolo por medio de nuestra página web *********"pagina pendiente"**********.
+                tengamos con usted después del cambio, o bien, haciéndolo por medio de nuestra página web https://www.info.segurosemaforo.com.
             </div>
             <div class="px-44 py-2">
                 Usted puede levantar alguna queja si en dado caso ve algun mal uso de su información o datos personales:
