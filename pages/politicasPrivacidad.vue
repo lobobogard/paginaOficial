@@ -53,7 +53,7 @@
             </div>
             <div class="px-44 py-2">
                 El responsable del manejo y supervisión de los datos personales es el area de administración de usuarios que pueden contactar por el correo segurosemaforo@gmail.com o atra vez de nuestra pagina 
-                https://www.info.segurosemaforo.com/contacto o por ultima instancia en nuestra dirección centro de guadalupe calle 7 fraccionamiento marte codigo póstal 67140 monterrey nuevo leon.
+                <b>https://www.info.segurosemaforo.com/contacto</b> o por ultima instancia en nuestra dirección centro de guadalupe calle 7 fraccionamiento marte codigo póstal 67140 monterrey nuevo leon.
             </div>
             <div class="px-44 pt-7 font-bold">
                 ¿Cómo puede limitar el uso o divulgación de su información personal?
@@ -72,7 +72,7 @@
             </div>
             <div class="px-44 py-2">
                 El aviso de privacidad puede ir teniendo actualizaciones, por lo cual siempre nos comprometemos a mantenerlo informado de tal modificacion en la primera comunicación que 
-                tengamos con usted después del cambio, o bien, haciéndolo por medio de nuestra página web https://www.info.segurosemaforo.com.
+                tengamos con usted después del cambio, o bien, haciéndolo por medio de nuestra página web <b>https://www.info.segurosemaforo.com</b>.
             </div>
             <div class="px-44 py-2">
                 Usted puede levantar alguna queja si en dado caso ve algun mal uso de su información o datos personales:

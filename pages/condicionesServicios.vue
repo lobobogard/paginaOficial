@@ -14,7 +14,7 @@
             </div>
             <div class="px-44 py-2">
                <p> El presente documento establece los términos y condiciones generales del uso que serán aplicables cuando usted visite y/o utilice la Aplicacion  
-                y/o el Sitio Web ********pagina pendiente **********, cuyo dueño y contenido pertenecen a SEGUROS SEMAFORO, sociedad 
+                y/o el Sitio Web <b>https://www.segurosemaforo.com</b>, cuyo dueño y contenido pertenecen a SEGUROS SEMAFORO, sociedad 
                 constituida en monterrey nuevo leon, estados unidos mexicano, con domicilo centro de guadalupe monterrey nuevo leon #147. </p><br>
                 
                 <p>También es necesario leer las Políticas de Privacidad, en donde detallamos nuestras prácticas de manejo de información . 
