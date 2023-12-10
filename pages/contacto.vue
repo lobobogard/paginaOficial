@@ -191,8 +191,8 @@ const enviarCorreo = () => {
 function enviar() {
     spinner.value = false
     const { data, error } = useFetch(
-    // 'https://api.segurosemaforo.com/api/enviarCorreoPaginaOficial',
-    'http://localhost/api/enviarCorreoPaginaOficial',
+    'https://api.segurosemaforo.com/api/enviarCorreoPaginaOficial',
+    // 'http://localhost/api/enviarCorreoPaginaOficial',
     // useRuntimeConfig().public.URL_API_CORREO,
     {
       method: 'POST',
