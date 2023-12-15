@@ -3,7 +3,7 @@
     <header>
     <nav class="bg-gray-300  border-gray-200 dark:bg-gray-900">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="https://flowbite.com/" class="flex items-center animate__animated animate__flip">
+        <a href="https://www.segurosemaforo.com/" class="flex items-center animate__animated animate__flip">
             <img src="~/assets/img/logos/semaforo.png" class="h-10  w-10 mr-3" alt="Flowbite Logox" />
         </a>
         <button @click="menu" data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
@@ -74,7 +74,7 @@
               <NuxtLink class="transition-all duration-200 hover:text-xl" to="/contacto">Contacto</NuxtLink>
             </li>
             <li>
-              <a href="#" class="border-2 border-teal-100 bg-blue-700 text-white font-bold p-1 rounded-full hover:bg-sky-50 hover:text-orange-500 hover:px-10 transition-all duration-500 text-sm">SEGUROS SEMAFORO</a>
+              <a href="https://www.segurosemaforo.com/" class="border-2 border-teal-100 bg-blue-700 text-white font-bold p-1 rounded-full hover:bg-sky-50 hover:text-orange-500 hover:px-10 transition-all duration-500 text-sm">SEGUROS SEMAFORO</a>
             </li>
           </ul>
         </div>
@@ -137,7 +137,7 @@
         </div>
         <div class="flex justify-center pb-5">
           
-          <a href="https://www.flaticon.es/" target="_blank" title="empresa iconos animados"><img src="~/assets/img/logos/freepik.png" class=" mr-3" alt="Flowbite Logo" /></a>
+          <a href="https://www.segurosemaforo.com/" target="_blank" title="empresa iconos animados"><img src="~/assets/img/logos/freepik.png" class=" mr-3" alt="Flowbite Logo" /></a>
         </div>
     </footer>
     </div>
