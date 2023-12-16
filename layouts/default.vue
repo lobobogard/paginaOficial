@@ -111,7 +111,7 @@
     <footer class="bg-white rounded-lg shadow dark:bg-gray-900 m-1">
         <div data-aos="flip-left" class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
             <div class="sm:flex sm:items-center sm:justify-between">
-                <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0">
+                <a href="https://www.segurosemaforo.com/" class="flex items-center mb-4 sm:mb-0">
                     <img src="~/assets/img/logos/semaforo.png" class="h-16 mr-3" alt="Flowbite Logo" />
                     <span class="self-center text-sm font-semibold whitespace-nowrap dark:text-white">Agentes en quien confiar</span>
                 </a>
@@ -133,11 +133,11 @@
                 </ul>
             </div>
             <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-            <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="http://localhost:9000/" class="hover:underline">Seguros Semaforo™</a>. todos los derechos reservados.</span>
+            <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://www.info.segurosemaforo.com/" class="hover:underline">Seguros Semaforo™</a>. todos los derechos reservados.</span>
         </div>
         <div class="flex justify-center pb-5">
           
-          <a href="https://www.segurosemaforo.com/" target="_blank" title="empresa iconos animados"><img src="~/assets/img/logos/freepik.png" class=" mr-3" alt="Flowbite Logo" /></a>
+          <a href="https://www.flaticon.es/" target="_blank" title="empresa iconos animados"><img src="~/assets/img/logos/freepik.png" class=" mr-3" alt="Flowbite Logo" /></a>
         </div>
     </footer>
     </div>
