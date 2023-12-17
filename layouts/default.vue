@@ -89,14 +89,14 @@
             <li class="mb-1 bg-blue-200 text-white text-center rounded-xl">
               <NuxtLink class="transition-all duration-200 hover:text-xl" to="/resumenEspanol">Compañia</NuxtLink>
             </li>
-            <li>
+            <!-- <li>
               <NuxtLink class="transition-all duration-200 hover:text-xl" to="/socioEspanol">Socio</NuxtLink>
-            </li>
+            </li> -->
             <li class="mb-2 bg-blue-200 text-white text-center rounded-xl">
               <NuxtLink class="transition-all duration-200 hover:text-xl" to="/contacto">Contacto</NuxtLink>
             </li>
             <li class="text-center">
-              <a href="#" class="border-2 border-teal-100 bg-blue-700 text-white font-bold p-1 rounded-full hover:bg-sky-50 hover:text-orange-500 hover:px-10 transition-all duration-500 text-sm">SEGUROS SEMAFORO</a>
+              <a href="https://www.segurosemaforo.com/" class="border-2 border-teal-100 bg-blue-700 text-white font-bold p-1 rounded-full hover:bg-sky-50 hover:text-orange-500 hover:px-10 transition-all duration-500 text-sm">SEGUROS SEMAFORO</a>
             </li>
           </ul>
         </div>
