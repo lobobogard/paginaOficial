@@ -121,7 +121,7 @@
 			<h2 class="text-2xl font-bold">Mensajes</h2>
 			<p class="piece-count py-3">Como aprovecharlo?</p>
 			<p class="text-sm bg-fuchsia-100 rounded-md p-1">
-          Una de las ventajas en la actualidad es el poder de mensajear al cliente por lo cual elaboramos un proceso muy simple y automatizado para hacerles un recordatorio del vencimiento del seguro.
+          Una de las ventajas en la actualidad es el poder de mensajear sms, correos y whatsapp al cliente por lo cual elaboramos un proceso muy simple y automatizado para hacerles un recordatorio del vencimiento del seguro.
       </p>
 		</div>
 		<div class="box w-12/12 pl-3 pr-10 pb-10 md:w-4/12 md:pl-10 md:pb-0">

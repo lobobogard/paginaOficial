@@ -17,52 +17,61 @@
             </li>
             <li>
               <!-- <NuxtLink class="transition-all duration-200 hover:text-xl" to="/tutorial">Tutorial</NuxtLink> -->
+              <!-- https://iconos8.es/icon/set/logos/wired  (iconos)-->
               <NuxtLink class="transition-all duration-200 hover:text-xl cursor-pointer" @click="tutorial">Tutorial</NuxtLink>
             </li>
             <div class="bg-slate-50 flex-1 w-80 mt-14 ml-20 absolute z-10 rounded-md shadow-xl" :class="cssTutorial">
               <div class="flex text-sm">
               <div class="flex flex-col w-64 pt-3 pl-2">
                 <div class="cursor-pointer image_input pt-1 group">
-                    <img src="~/assets/img/tutorial/registrar.svg" class="tutoriaSizeImagen group-hover:animate-ping"  alt="Excel" />
+                    <img src="~/assets/img/tutorial/registrar.svg" class="tutoriaSizeImagen group-hover:animate-ping"  alt="Registrar" />
                     <NuxtLink class="transition-all duration-200 hover:text-base hover:text-teal-600 ml-1" to="/tutoriales/Registrar" @click="tutorial">Registrar</NuxtLink>
                 </div>
                 <div class="cursor-pointer image_input pt-3 group">
-                  <img src="~/assets/img/tutorial/poliza.svg" class="tutoriaSizeImagen group-hover:animate-ping"  alt="Excel" />
+                  <img src="~/assets/img/tutorial/poliza.svg" class="tutoriaSizeImagen group-hover:animate-ping"  alt="AltaPoliza" />
                   <NuxtLink class="transition-all duration-200 hover:text-base hover:text-teal-600 ml-1" to="/tutoriales/AltaPoliza" @click="tutorial">Alta Póliza</NuxtLink>
                 </div>
                 <div class="cursor-pointer image_input pt-3 group">
-                  <img src="~/assets/img/tutorial/excel.svg" class="tutoriaSizeImagen group-hover:animate-ping"  alt="Excel" />
+                  <img src="~/assets/img/tutorial/excel.svg" class="tutoriaSizeImagen group-hover:animate-ping"  alt="CargaPolizas" />
                   <NuxtLink class="transition-all duration-200 hover:text-base hover:text-teal-600 ml-1" to="/tutoriales/CargaPolizas" @click="tutorial">Carga Pólizas</NuxtLink>
                 </div>
                 <div class="cursor-pointer image_input pt-3 group">
-                  <img src="~/assets/img/tutorial/trabajo.svg" class="tutoriaSizeImagen group-hover:animate-ping"  alt="Excel" />
+                  <img src="~/assets/img/tutorial/trabajo.svg" class="tutoriaSizeImagen group-hover:animate-ping"  alt="Configuraciones" />
                   <NuxtLink class="transition-all duration-200 hover:text-base hover:text-teal-600 ml-1" to="/tutoriales/Configuraciones" @click="tutorial">Configuraciones</NuxtLink>
                 </div>
-                <div class="cursor-pointer image_input pt-3 group pb-3">
-                  <img src="~/assets/img/tutorial/correo.svg" class="tutoriaSizeImagen group-hover:animate-ping"  alt="Excel" />
+                <div class="cursor-pointer image_input pt-3 group">
+                  <img src="~/assets/img/tutorial/correo.svg" class="tutoriaSizeImagen group-hover:animate-ping"  alt="Correos" />
                   <NuxtLink class="transition-all duration-200 hover:text-base hover:text-teal-600 ml-1" to="/tutoriales/Correos" @click="tutorial">Correos</NuxtLink>
+                </div>
+                <div class="cursor-pointer image_input pt-3 group pb-3">
+                  <img src="~/assets/img/tutorial/whatsapp.svg" class="tutoriaSizeImagen group-hover:animate-ping"  alt="Whatsapp" />
+                  <NuxtLink class="transition-all duration-200 hover:text-base hover:text-teal-600 ml-1" to="/tutoriales/Whatsapp" @click="tutorial">whatsapp</NuxtLink>
                 </div>
               </div>
               <div class="flex flex-col w-64 pt-3 pl-2">
                 <div class="cursor-pointer image_input pt-1 group">
-                  <img src="~/assets/img/tutorial/mensajes.svg" class="tutoriaSizeImagen group-hover:animate-ping"  alt="Excel" />
+                  <img src="~/assets/img/tutorial/mensajes.svg" class="tutoriaSizeImagen group-hover:animate-ping"  alt="Mensajes" />
                   <NuxtLink class="transition-all duration-200 hover:text-base hover:text-teal-600 ml-1" to="/tutoriales/Mensajes" @click="tutorial">Mensajes</NuxtLink>
                 </div>
                 <div class="cursor-pointer image_input pt-3 group">
-                  <img src="~/assets/img/tutorial/tabla.svg" class="tutoriaSizeImagen group-hover:animate-ping"  alt="Excel" />
+                  <img src="~/assets/img/tutorial/tabla.svg" class="tutoriaSizeImagen group-hover:animate-ping"  alt="Tabla" />
                   <NuxtLink class="transition-all duration-200 hover:text-base hover:text-teal-600 ml-1" to="/tutoriales/Tabla" @click="tutorial">Tabla</NuxtLink>
                 </div>
                 <div class="cursor-pointer image_input pt-3 group">
-                  <img src="~/assets/img/tutorial/graficas.svg" class="tutoriaSizeImagen group-hover:animate-ping"  alt="Excel" />
+                  <img src="~/assets/img/tutorial/graficas.svg" class="tutoriaSizeImagen group-hover:animate-ping"  alt="Graficas" />
                   <NuxtLink class="transition-all duration-200 hover:text-base hover:text-teal-600 ml-1" to="/tutoriales/Graficas" @click="tutorial">Gráficas</NuxtLink>
                 </div>
                 <div class="cursor-pointer image_input pt-3 group">
-                  <img src="~/assets/img/tutorial/notas.svg" class="tutoriaSizeImagen group-hover:animate-ping"  alt="Excel" />
+                  <img src="~/assets/img/tutorial/notas.svg" class="tutoriaSizeImagen group-hover:animate-ping"  alt="Notas" />
                   <NuxtLink class="transition-all duration-200 hover:text-base hover:text-teal-600 ml-1" to="/tutoriales/Notas" @click="tutorial">Notas</NuxtLink>
                 </div>
-                <div class="cursor-pointer image_input pt-3 group pb-3">
-                  <img src="~/assets/img/tutorial/contraseña.svg" class="tutoriaSizeImagen group-hover:animate-ping"  alt="Excel" />
+                <div class="cursor-pointer image_input pt-3 group">
+                  <img src="~/assets/img/tutorial/contraseña.svg" class="tutoriaSizeImagen group-hover:animate-ping"  alt="Contraseña" />
                   <NuxtLink class="transition-all duration-200 hover:text-base hover:text-teal-600 ml-1" to="/tutoriales/Contrasena" @click="tutorial">Contraseña</NuxtLink>
+                </div>
+                <div class="cursor-pointer image_input pt-3 group pb-3">
+                  <img src="~/assets/img/tutorial/ticket.svg" class="tutoriaSizeImagen group-hover:animate-ping"  alt="Ticket" />
+                  <NuxtLink class="transition-all duration-200 hover:text-base hover:text-teal-600 ml-1" to="/tutoriales/Ticket" @click="tutorial">Ticket</NuxtLink>
                 </div>
               </div>
             </div>

@@ -123,7 +123,7 @@
 
     <section>
         <div class="flex justify-center bg-black">
-            <img src="~/assets/img/personal/programador.jpg" class="h-96 mr-3" alt="Flowbite Logo" />
+            <img src="~/assets/img/personal/fundidora_2.jpg" class="h-96 mr-3" alt="Flowbite Logo" />
         </div>
     </section>
 
