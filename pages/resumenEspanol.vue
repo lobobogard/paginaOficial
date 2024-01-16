@@ -3,9 +3,9 @@
       <!-- <div class="flex justify-center text-xl md:text-7xl pt-10 font-thin font-mono">
         <h1>L. Pulido A.</h1>
       </div>     -->
-      <div class="flex justify-center p-10 md:p-16 animate__animated animate__zoomInDown rounded">
+      <div class="flex justify-center animate__animated animate__zoomInDown rounded">
         <!-- <img src="~/assets/img/personal/programando.jpg" class="h-40 w-50 mr-3" alt="Flowbite Logo" /> -->
-         <img src="~/assets/img/logos/clan.png" class="w-52 mr-3 bg-slate-100 rounded" alt="Flowbite Logo" />
+         <img src="~/assets/img/logos/jenesis.png" class="w-72 mr-3" alt="Flowbite Logo" />
       </div>
       <div class="flex flex-col w-11/12 md:w-5/12 text-center pt-1 text-sm font-serif">
         <div class="animate__animated animate__slideInLeft text-lg">
@@ -123,7 +123,7 @@
 
     <section>
         <div class="flex justify-center bg-black">
-            <img src="~/assets/img/personal/programador.jpg" class="h-96 mr-3" alt="Flowbite Logo" />
+            <img src="~/assets/img/personal/trabajoEquipo.jpg" class="h-96 mr-3" alt="Flowbite Logo" />
         </div>
     </section>
 
@@ -135,30 +135,30 @@
         </div>
         <div class="container flex flex-col md:flex-row gap-x-56 items-center md:justify-between text-md md:text-2xl">
             <div class="underline decoration-teal-300 pb-5">
-              Unilink Transportation
+                <img src="~/assets/img/logos/unilink.png" class="w-72 mr-3" alt="Flowbite Logo" />
             </div>
             <div class="underline decoration-teal-300 pb-5">
-              Banorte
+                <img src="~/assets/img/logos/banorte.png" class="w-72 mr-3" alt="Flowbite Logo" />
             </div>
             <div class="underline decoration-teal-300 pb-5">
-              Gobierno Mexico
+                <img src="~/assets/img/logos/gobierno.png" class="w-72 mr-3" alt="Flowbite Logo" />
             </div>
             <div class="underline decoration-teal-300 pb-5">
-              Secretaría de Ambiente Puebla
+                <img src="~/assets/img/logos/secretaria_puebla.png" class="w-72 mr-3" alt="Flowbite Logo" />
             </div>
         </div>
         <div class="container flex flex-col md:flex-row gap-x-56 items-center md:justify-between text-md md:text-2xl">
             <div class="underline decoration-teal-300 pb-5">
-              Clima America Latina
+                <img src="~/assets/img/logos/climatico_mexico.png" class="w-72 mr-3" alt="Flowbite Logo" />
             </div>
             <div class="underline decoration-teal-300 pb-5">
-              Gobierno Tlaxcala
+                <img src="~/assets/img/logos/tlaxcala.png" class="w-72 mr-3" alt="Flowbite Logo" />
             </div>
             <div class="underline decoration-teal-300 pb-5">
-              Gas Natural
+                <img src="~/assets/img/logos/gasNatural.png" class="w-72 mr-3" alt="Flowbite Logo" />
             </div>
             <div class="underline decoration-teal-300 pb-5">
-              Farmacias del ahorro
+                <img src="~/assets/img/logos/farmacia.png" class="w-72 mr-3" alt="Flowbite Logo" />
             </div>
         </div>
         <!-- <div class="container flex flex-col md:flex-row gap-x-56 items-center md:justify-between text-md md:text-2xl">

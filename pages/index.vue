@@ -29,7 +29,7 @@
       <div class="flex flex-col md:flex-row">
       <div class="basis-11/12 md:basis-1/2 border-1 rounded-md m-4">
            <div class="flex justify-center px-4 py-4">
-            <img src="~/assets/img/gif/cohete.gif" class="h-16  w-16 mr-3" alt="Flowbite Logox" />
+            <img src="~/assets/img/iconos/solucion.png" class="size_img mr-3" alt="Flowbite Logox" />
            </div>
            <div class="p-4 pt-4 text-justify bg-black rounded-md text-white h-36">
             En ocaciones buscamos soluciones o formas de como hacer crecer nuestro negocio por la cual buscamos nuevas alternativas hasta no encontrar algo en la cual sentimos
@@ -38,7 +38,7 @@
       </div>
       <div class="basis-11/12 md:basis-1/2 border-1 rounded-md m-4">
            <div class="flex justify-center px-4 py-4">
-            <img src="~/assets/img/gif/bolsa-de-dinero.gif" class="h-16  w-16 mr-3" alt="Flowbite Logox" />
+            <img src="~/assets/img/iconos/herramientas.png" class="size_img mr-3" alt="Flowbite Logox" />
            </div>
            <div class="p-4 pt-4 text-justify bg-black rounded-md text-white h-36">
             Buscamos alternativas de como hacer mas dinero haciendo menos con la cual buscamos ya sea con herramientas o tecnicas que vamos creando bajo nuestro propio criterio 
@@ -49,7 +49,7 @@
     <div class="flex flex-col md:flex-row">
       <div class="basis-11/12 md:basis-1/2 border-1 rounded-md m-4">
            <div class="flex justify-center px-4 py-4">
-            <img src="~/assets/img/gif/reloj.gif" class="h-16  w-16 mr-3" alt="Flowbite Logox" />
+            <img src="~/assets/img/iconos/tiempo_dinero.png" class="size_img mr-3" alt="Flowbite Logox" />
            </div>
            <div class="p-4 pt-4 text-justify bg-black rounded-md text-white h-40">
             Queremos tener mas tiempo disponible ya sea para la atención o búsqueda de nuevos clientes, como el de también tener mas tiempo libre por ejemplo siempre hemos pensado
@@ -59,7 +59,7 @@
       </div>
       <div class="basis-11/12 md:basis-1/2 border-1 rounded-md m-4">
            <div class="flex justify-center px-4 py-4">
-            <img src="~/assets/img/gif/apreton-de-manos.gif" class="h-16  w-16 mr-3" alt="Flowbite Logox" />
+            <img src="~/assets/img/iconos/development.png" class="size_img mr-3" alt="Flowbite Logox" />
            </div>
            <div class="p-4 pt-4 text-justify bg-black rounded-md text-white h-40">
             Dandole a nuestros clientes ese seguimiento puntual y buenas experiencias con la atención que ellos buscan sera claro que nuestra cartera de clientes seguira en crecimiento
@@ -295,8 +295,12 @@
       }
     </script>
     <style scoped>
-  @import url("https://fonts.googleapis.com/css?family=Lato:200,300,400,400i,700");
-@import url("https://fonts.googleapis.com/css?family=Merriweather:200,400,400i,700");
+    @import url("https://fonts.googleapis.com/css?family=Lato:200,300,400,400i,700");
+    @import url("https://fonts.googleapis.com/css?family=Merriweather:200,400,400i,700");
 
+    .size_img{
+      width: 100px;
+    }
 
    </style>
+  
