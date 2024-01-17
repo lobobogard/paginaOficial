@@ -10,7 +10,7 @@
       <div class="flex flex-col w-11/12 md:w-5/12 text-center pt-1 text-sm font-serif">
         <div class="animate__animated animate__slideInLeft text-lg">
         <h1>
-            Compañia Black Wolf fue creado en mayo del 2023 con el objetivo de ofrecer diferentes servicios saas para las empresas y obtener tambien nuevos proyectos
+            jenesis empezo en enero del 2024 con el objetivo de ofrecer diferentes servicios saas para las empresas y obtener tambien nuevos proyectos
             los cuales nosotros queremos trabajar de forma independiente obteniendo todo el crédito de nuestras nuevas ideas e inovaciones hacia las empresas
             que lleguemos a ofrecer de nuestros servicios. 
         </h1>
@@ -123,7 +123,7 @@
 
     <section>
         <div class="flex justify-center bg-black">
-            <img src="~/assets/img/personal/trabajoEquipo.jpg" class="h-96 mr-3" alt="Flowbite Logo" />
+            <img src="~/assets/img/personal/trabajoEquipo.jpg" class="h-44 sm:h-96 mr-3" alt="Flowbite Logo" />
         </div>
     </section>
 
@@ -135,30 +135,30 @@
         </div>
         <div class="container flex flex-col md:flex-row gap-x-56 items-center md:justify-between text-md md:text-2xl">
             <div class="underline decoration-teal-300 pb-5">
-                <img src="~/assets/img/logos/unilink.png" class="w-72 mr-3" alt="Flowbite Logo" />
+                <img src="~/assets/img/logos/unilink.png" class="w-32 sm:w-72 mr-3" alt="Flowbite Logo" />
             </div>
             <div class="underline decoration-teal-300 pb-5">
-                <img src="~/assets/img/logos/banorte.png" class="w-72 mr-3" alt="Flowbite Logo" />
+                <img src="~/assets/img/logos/banorte.png" class="w-32 sm:w-72 mr-3" alt="Flowbite Logo" />
             </div>
             <div class="underline decoration-teal-300 pb-5">
-                <img src="~/assets/img/logos/gobierno.png" class="w-72 mr-3" alt="Flowbite Logo" />
+                <img src="~/assets/img/logos/gobierno.png" class="w-32 sm:w-72 mr-3" alt="Flowbite Logo" />
             </div>
             <div class="underline decoration-teal-300 pb-5">
-                <img src="~/assets/img/logos/secretaria_puebla.png" class="w-72 mr-3" alt="Flowbite Logo" />
+                <img src="~/assets/img/logos/secretaria_puebla.png" class="w-32 sm:w-72 mr-3" alt="Flowbite Logo" />
             </div>
         </div>
         <div class="container flex flex-col md:flex-row gap-x-56 items-center md:justify-between text-md md:text-2xl">
             <div class="underline decoration-teal-300 pb-5">
-                <img src="~/assets/img/logos/climatico_mexico.png" class="w-72 mr-3" alt="Flowbite Logo" />
+                <img src="~/assets/img/logos/climatico_mexico.png" class="w-32 sm:w-72 mr-3" alt="Flowbite Logo" />
             </div>
             <div class="underline decoration-teal-300 pb-5">
-                <img src="~/assets/img/logos/tlaxcala.png" class="w-72 mr-3" alt="Flowbite Logo" />
+                <img src="~/assets/img/logos/tlaxcala.png" class="w-32 sm:w-72 mr-3" alt="Flowbite Logo" />
             </div>
             <div class="underline decoration-teal-300 pb-5">
-                <img src="~/assets/img/logos/gasNatural.png" class="w-72 mr-3" alt="Flowbite Logo" />
+                <img src="~/assets/img/logos/gasNatural.png" class="w-32 sm:w-72 mr-3" alt="Flowbite Logo" />
             </div>
             <div class="underline decoration-teal-300 pb-5">
-                <img src="~/assets/img/logos/farmacia.png" class="w-72 mr-3" alt="Flowbite Logo" />
+                <img src="~/assets/img/logos/farmacia.png" class="w-32 sm:w-72 mr-3" alt="Flowbite Logo" />
             </div>
         </div>
         <!-- <div class="container flex flex-col md:flex-row gap-x-56 items-center md:justify-between text-md md:text-2xl">
