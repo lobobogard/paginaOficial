@@ -17,9 +17,13 @@
             <img src="~/assets/img/tutorial/trabajo.svg" class="tutoriaSizeImagen"  alt="Excel" />
             <NuxtLink class="transition-all duration-200 hover:text-xl hover:text-teal-600 ml-1" to="/tutoriales/Configuraciones" @click="tutorial">Configuraciones</NuxtLink>
         </div>
-        <div class="cursor-pointer image_input pt-3 group pb-3">
+        <div class="cursor-pointer image_input pt-3 group">
             <img src="~/assets/img/tutorial/correo.svg" class="tutoriaSizeImagen"  alt="Excel" />
             <NuxtLink class="transition-all duration-200 hover:text-xl hover:text-teal-600 ml-1" to="/tutoriales/Correos" @click="tutorial">Correos</NuxtLink>
+        </div>
+        <div class="cursor-pointer image_input pt-3 group pb-3">
+            <img src="~/assets/img/tutorial/whatsapp.svg" class="tutoriaSizeImagen group-hover:animate-ping"  alt="Whatsapp" />
+            <NuxtLink class="transition-all duration-200 hover:text-base hover:text-teal-600 ml-1" to="/tutoriales/Whatsapp" @click="tutorial">whatsapp</NuxtLink>
         </div>
         </div>
         <div class="flex flex-col pl-2">
@@ -39,9 +43,13 @@
             <img src="~/assets/img/tutorial/notas.svg" class="tutoriaSizeImagen"  alt="Excel" />
             <NuxtLink class="transition-all duration-200 hover:text-xl hover:text-teal-600 ml-1" to="/tutoriales/Notas" @click="tutorial">Notas</NuxtLink>
         </div>
-        <div class="cursor-pointer image_input pt-3 group pb-12">
+        <div class="cursor-pointer image_input pt-3 group">
             <img src="~/assets/img/tutorial/contraseña.svg" class="tutoriaSizeImagen"  alt="Excel" />
             <NuxtLink class="transition-all duration-200 hover:text-xl hover:text-teal-600 ml-1" to="/tutoriales/Contrasena" @click="tutorial">Contraseña</NuxtLink>
+        </div>
+        <div class="cursor-pointer image_input pt-3 group pb-12">
+            <img src="~/assets/img/tutorial/ticket.svg" class="tutoriaSizeImagen group-hover:animate-ping"  alt="Ticket" />
+            <NuxtLink class="transition-all duration-200 hover:text-base hover:text-teal-600 ml-1" to="/tutoriales/Ticket" @click="tutorial">Ticket</NuxtLink>
         </div>
         </div>
       </div>
